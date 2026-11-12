@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+#a1{
+    width: 700px;
+    height: 400px;
+    background:linear-gradient(to top,rgb(0, 0, 0) 50% ,rgb(0, 47, 255));
+    color:white;
+    border: 0.1px solid white;
+    top: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+}
+#a2{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 80px;
+}
+#a3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position:absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 9px 120px rgb(23, 8, 245);
+    border: 0.1px solid white;
+}
+#a4{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+li{
+   font-size: 25px;
+   margin-top: 40px; 
+   list-style-type: none;
+   padding-left: 0;
+}
+ul li::before{
+    content: "✅";
+}
